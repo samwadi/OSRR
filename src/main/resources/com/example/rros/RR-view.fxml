@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rros.Controller">
+    <children>
+        <TextArea fx:id="RRTextArea" prefHeight="400.0" prefWidth="439.0" />
+        <Button layoutX="452.0" layoutY="122.0" mnemonicParsing="false" onAction="#RR1000" text="Try for 1000 proccesses" />
+        <Button layoutX="449.0" layoutY="161.0" mnemonicParsing="false" onAction="#RR10000" text="Try for 10000 proccesses" />
+        <Button layoutX="458.0" layoutY="86.0" mnemonicParsing="false" onAction="#RR10" text="Try for 10 proccesses" />
+        <Button layoutX="461.0" layoutY="49.0" mnemonicParsing="false" onAction="#RR8" text="Try for 8 proccesses" />
+    </children>
+</AnchorPane>
